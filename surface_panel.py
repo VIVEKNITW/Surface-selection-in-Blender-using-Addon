@@ -10,8 +10,6 @@ class Surface_PT_selection(bpy.types.Panel):
 
     def draw(self, context):
         layout = self.layout
-        # scene = context.scene
-        # mytool = scene.my_tool
         row = layout.row()
         row.operator("object.surfaceselection")
         row = layout.row()
